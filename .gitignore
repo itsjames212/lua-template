@@ -1,0 +1,13 @@
+**/*.rbx[l]*
+
+globalTypes.d.lua
+
+Packages/
+ServerPackages/
+
+roblox.yml
+roblox.toml
+
+sourcemap.json
+**/sourcemap.json
+bin/

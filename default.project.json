@@ -1,0 +1,43 @@
+{
+    "name": "project-template",
+    "emitLegacyScripts": false,
+    "tree": {
+        "$className": "DataModel",
+        "Workspace": {
+            "$className": "Workspace",
+            "Map": {
+                "$className": "Folder",
+                "SpawnLocation": {
+                    "$path": "Maps/Base/SpawnLocation.rbxm"
+                },
+                "Baseplate": {
+                    "$path": "Maps/Base/Baseplate.rbxm"
+                }
+            }
+        },
+        "ReplicatedStorage": {
+            "Packages": {
+                "$path": "Packages"
+            },
+            "Client": {
+                "$path": "src/Client"
+            },
+            "Shared": {
+                "$path": "src/Shared"
+            },
+            "Assets": {
+                "$path": "Assets"
+            }
+        },
+        "ServerScriptService": {
+            "Server": {
+                "$path": "src/Server"
+            }
+        },
+        "ServerStorage": {
+            "ServerPackages": {
+                "$path": "ServerPackages"
+            }
+        }
+    }
+}
